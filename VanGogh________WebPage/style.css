@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: ItaliaStd-Book;
+    src: url(./fonts/ItaliaStd-Book.otf);
+}
+
+.title {
+    background-image: url(./images/title.png);
+    /* height: 1131px; */
+    height: 30vw;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exhibition {
+    font-family: ItaliaStd-Book;
+    color: black;
+    background-color: #FFC244;
+    height: 100%;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.exhibition>.textExhib {
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+p {
+    font-size: 1.2vw;
+}
+
+h3 {
+    font-size: 1.4vw;
+}
+
+.expo1 {
+    background-image: url(./images/expo1.png);
+    /* height: 1131px; */
+    height: 50vw;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bio {
+    padding-top: 2%;
+    /* height: 1131px; */
+    height: 48vw;
+    width: 100%;
+    background-image: url(./images/bio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: ItaliaStd-Book;
+    color: black;
+}
+
+.bio>.textBio {
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+h4 {
+    font-size: 1.4vw;
+    margin-left: 1%;
+}
+
+.expo2 {
+    height: 42vw;
+    width: 100%;
+    background-image: url(./images/expo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infos {
+    font-family: ItaliaStd-Book;
+    color: black;
+    height: 80vw;
+    width: 100%;
+    background-image: url(./images/endOfPage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infos>.topinfos {
+    text-align: end;
+    margin-right: 5%;
+}
+
+.infosetreservations {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.5vw;
+    text-underline-offset: 1vw;
+}
+
+h3 {
+    margin-top: 2%;
+    font-size: 1.4vw;
+    /* padding-top: 4%; */
+    padding-bottom: 10%;
+}
+
+.buttonClass {
+    padding-left: 3vw;
+    display: block;
+    font-size: 4vw;
+    width: 37vw;
+    height: 5vw;
+    border-width: 2px;
+    color: rgba(0, 0, 0, 1);
+    border-color: rgba(174, 172, 172, 0);
+    border-radius: 50px;
+    box-shadow: 3px 10px 12px -1px rgba(79, 71, 71, 0.81);
+    background: rgba(255, 194, 68, 1);
+}
+
+.button {
+    margin-left: 5%;
+}
+
+.buttonClass:hover {
+    background: rgba(255, 194, 68, 1);
+    color: #ffffff
+}
+
+.buttonClass>a {
+    margin-left: 5%;
+}
+
+.contact {
+    text-align: bottom;
+    margin-left: 8.5%;
+    margin-top: 15%;
+}
+
+.contact>p {
+    font-size: 1.5vw;
+}
+
+
+/* mon bouton...
+
+
+*/

@@ -1,0 +1,545 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+/*?! */
+
+#index {
+    font-family: "Julius Sans One", sans-serif;
+    position: relative;
+    background-image: url("./images/Brussels_GRADIENT 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 226vh;
+    width: 100%;
+}
+
+#line_up {
+    font-family: "Julius Sans One", sans-serif;
+    position: relative;
+    background-image: url("./images/Line_up_BG.png");
+    height: 236vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artists {
+    font-family: "Julius Sans One", sans-serif;
+    position: relative;
+    background-image: url("./images/artistsBG.png");
+    height: 310vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nav .nav__logo {
+    /* display: flex; */
+    margin-top: 2vw;
+    margin-left: 2vw;
+    background-size: 10vw 4vh;
+}
+
+.nav_menu {
+    margin-top: 3vh;
+    width: 4vw;
+}
+
+li {
+    margin-left: 10vw;
+    margin-top: 4vh;
+    display: inline-block;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 1.2vw;
+}
+
+li a {
+    width: 5vw;
+    text-decoration: none;
+    color: #000;
+    padding-left: 2vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /* -webkit-transition: color 0.1s ease-out; */
+}
+
+li a:hover {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+}
+
+.dates h1 {
+    margin-top: 80vh;
+    text-align: center;
+    letter-spacing: 1vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2vw;
+}
+
+.lineup__index {
+    border-left-style: none;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: black;
+    margin-top: 40vh;
+    text-align: center;
+    height: 10vh;
+    /*  */
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 40vh;
+    background: linear-gradient(#ff34dd5b, #80defe6d);
+    border-radius: 151px;
+    height: 34vh;
+    width: 45vw;
+}
+
+.lineup__index h1 {
+    font-size: 2.4vw;
+}
+
+.lineup__index h2 {
+    font-size: 1.8vw;
+}
+
+.lineup__index h3 {
+    font-size: 1vw;
+}
+
+.index_footer footer {
+    background-image: url(./images/sponsors.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 11vh;
+    width: 93%;
+    margin-top: 115vh;
+    margin-left: 6vw;
+}
+
+.tfc_footer footer {
+    background-image: url(./images/sponsors.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 11vh;
+    width: 93%;
+    margin-top: 24vh;
+    margin-left: 6vw;
+}
+
+.line_up-container {
+    /* background: rgba(255, 255, 255, 0.485); */
+    height: 140vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ". . ." ". . ." ". . .";
+}
+
+.date__lineup {
+    text-align: center;
+    letter-spacing: 0.7vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2.4vw;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.artist1 {
+    background-image: url("./images/artist1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist2 {
+    background-image: url("./images/artist2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist3 {
+    background-image: url("./images/artist3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist4 {
+    background-image: url("./images/artist4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist5 {
+    background-image: url("./images/artist5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist6 {
+    background-image: url("./images/artist6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist7 {
+    background-image: url("./images/artist7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist8 {
+    background-image: url("./images/artist8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist9 {
+    background-image: url("./images/artist9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artists {
+    display: flex;
+    /* filter: blur(0); */
+    /* -webkit-filter: blur(0); */
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    /* visibility: hidden; */
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.artists:hover {
+    /* filter: blur(2px); */
+    /* -webkit-filter: blur(2px); */
+}
+
+.artists h1 {
+    filter: blur(0);
+    text-align: center;
+    margin: 20vh auto;
+    color: white;
+    text-decoration: none;
+}
+
+.ticketing {
+    margin: 0 auto;
+    width: 100%;
+    height: 140vh;
+}
+
+.ticket_header {
+    margin-bottom: -6vh;
+    background-position: center;
+    width: 75%;
+    height: 29vh;
+    background-image: url("./images/ticket_header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ticket_header h1 {
+    padding: 5vh;
+    color: white;
+    font-size: 1.7vw;
+}
+
+.ticket_icon {
+    position: absolute;
+    background-image: url("./images/ticket_icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 36vh;
+    width: 8vw;
+    margin-top: -6vh;
+    margin-left: 43vw;
+    padding-right: 5vw;
+    padding-bottom: 7vh;
+    /* z-index: 100; */
+    background-size: contain;
+}
+
+.info_tickets {
+    background-position: center;
+    width: 65%;
+    height: 76vh;
+    background-image: url("./images/infos_tickets.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.info_tickets h1 {
+    padding-top: 25vh;
+    color: white;
+    font-size: 1.4vw;
+}
+
+.info_tickets h2 {
+    color: white;
+    font-size: 1.1vw;
+}
+
+h2 a {
+    color: white;
+}
+
+.info_tickets h3 {
+    color: white;
+    font-size: 0.9vw;
+    margin-top: 7vh;
+}
+
+.contact {
+    margin: 0 auto;
+    width: 100%;
+    height: 140vh;
+}
+
+.contact_txt {
+    background-position: center;
+    width: 65%;
+    height: 70vh;
+    background-image: url("./images/contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact_txt h2 {
+    padding-top: 32vh;
+    color: white;
+    font-size: 1.6vw;
+}
+
+.contact iframe {
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    height: 70vh;
+}
+
+.carte {
+    padding-top: 18vh;
+}
+
+.artist_title {
+    margin-left: 2vw;
+    margin-top: 2vw;
+    text-align: left;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.artist_title .gorillaz {
+    margin-left: -2.5vw;
+    width: 40%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.artist_title h2 {
+    width: 35%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.artist_title h3 {
+    width: 35%;
+    text-align: center;
+    font-size: 2.8vw;
+}
+
+.artist_infos {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.gorillaz_pic {
+    border: 0.5vw solid white;
+    margin-left: 2vw;
+    width: 50%;
+    height: 70vh;
+    background-image: url("./images/artist1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist_txt {
+    height: 70vh;
+    width: 43%;
+    margin-left: 1.8vw;
+    background-color: #ff09e7;
+}
+
+.artist_txt p {
+    margin-left: 2vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color: white;
+    color: white;
+}
+
+.yt_embed {
+    margin-left: 2vw;
+    margin-top: 15vh;
+    margin-bottom: 48vh;
+    height: 100vh;
+    width: 80%;
+}
+
+.yt_embed iframe {
+    height: 100vh;
+    height: 130vh;
+    width: 120%;
+}
+
+.artist_title .metronomy {
+    margin-left: -2.5vw;
+    width: 48%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.metronomy_pic {
+    border: 0.5vw solid white;
+    margin-left: 2vw;
+    width: 50%;
+    height: 70vh;
+    background-image: url("./images/artist2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.altj_pic {
+    border: 0.5vw solid white;
+    margin-left: 2vw;
+    width: 50%;
+    height: 70vh;
+    background-image: url("./images/artist3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist_title .altj {
+    margin-left: -2.5vw;
+    width: 38%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.artist_title .metric {
+    margin-left: -2.5vw;
+    width: 38%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.metric_pic {
+    border: 0.5vw solid white;
+    margin-left: 2vw;
+    width: 50%;
+    height: 70vh;
+    background-image: url("./images/artist4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pedro_pic {
+    border: 0.5vw solid white;
+    margin-left: 2vw;
+    width: 50%;
+    height: 70vh;
+    background-image: url("./images/artist5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.anamanaguchi_pic {
+    border: 0.5vw solid white;
+    margin-left: 2vw;
+    width: 50%;
+    height: 70vh;
+    background-image: url("./images/artist6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artist_title .pedro {
+    margin-left: -2.5vw;
+    width: 38%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.artist_title .anamanaguchi {
+    margin-left: 0.7vw;
+    width: 45%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.artist_title h2 {
+    width: 46%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.artist_title h3 {
+    width: 45%;
+    text-align: center;
+    font-size: 2.8vw;
+}
+
+a > p {
+    color: white;
+    text-decoration: none;
+    font-size: 4vw;
+    width: 100%;
+    stroke-width: 3vh;
+    /*stroke: aliceblue;
+    */
+    text-align: center;
+    -webkit-text-stroke: 0.1vw white;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+a > p:hover {
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    font-size: 4vw;
+    width: 100%;
+    stroke-width: 3vh;
+    /* stroke: rgb(0, 0, 0); */
+    text-align: center;
+    visibility: visible;
+}

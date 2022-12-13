@@ -1,0 +1,255 @@
+    /* ! global */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+    * {
+        margin: 0;
+        font-family: 'Armata', sans-serif;
+    }
+    /* ? color theme
+Blanc: #FFFFFF / Orange: #eb5922 / Noir: #070707
+ */
+    /* ! nav */
+    
+    .item1 {
+        /* grid-area: 1 / 1 / 2 / 6; */
+        background: url(./images/navBG.png);
+        background-size: cover;
+        padding-bottom: 1.25%;
+    }
+    
+    .more {
+        color: #FFFFFF;
+        text-decoration: none;
+        float: right;
+        font-size: 1.65vw;
+        font-variant-caps: all-small-caps;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-right: 2.5%;
+        position: relative;
+    }
+    
+    .more:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #eb5922;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .more:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    
+    .more:hover {
+        color: #eb5922;
+    }
+    
+    .nasanav {
+        display: inline-block;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        width: 5%;
+        height: 5%;
+    }
+    /* ! header */
+    
+    .item2 {
+        /* grid-area: 2 / 1 / 3 / 6; */
+        background: url(./images/mars_header.png);
+        height: 54vw;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .item2>h1 {
+        color: #FFFFFF;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        font-size: 7.2vw;
+    }
+    
+    .item2>p {
+        color: #FFFFFF;
+        margin-bottom: 2.5%;
+        margin-left: 5%;
+        font-size: 1.5vw;
+    }
+    
+    .explore {
+        font-variant-caps: all-small-caps;
+        font-size: 1.5vw;
+        color: #eb5922;
+        text-decoration: none;
+        margin-left: 5%;
+        position: relative;
+    }
+    
+    .explore:hover {
+        color: #FFFFFF;
+    }
+    
+    .explore:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #FFFFFF;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .explore:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    /* ! about */
+    
+    .item3 {
+        /* grid-area: 3 / 1 / 4 / 6; */
+        color: #FFFFFF;
+        background: url(./images/aboutmars.png);
+        width: 100%;
+        height: 70vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 3%;
+    }
+    
+    .about {
+        color: #FFFFFF;
+        margin-bottom: 3.5%;
+        margin-left: 5%;
+        font-size: 1vw;
+    }
+    
+    .dream>p {
+        color: #eb5922;
+        margin-top: 2.5%;
+        margin-left: 5%;
+        font-size: 1vw;
+    }
+    
+    .infos {
+        display: flex;
+        justify-content: space-evenly;
+        color: #FFFFFF;
+        margin-top: 5%;
+    }
+    
+    .box {}
+    
+    h2>span {
+        font-size: 6.5vw;
+    }
+    
+    span {
+        font-size: 5vw;
+    }
+    /* ! CTA */
+    
+    .item4 {
+        background: url(./images/ingenuity_1.png);
+        background-size: 100%;
+        background-position: 85% 15%;
+        height: 15vw;
+        background-repeat: no-repeat;
+        padding-top: 3.5%;
+    }
+    
+    .item4>h1 {
+        text-align: center;
+        font-size: 2.5vw;
+    }
+    
+    .item4>.button {
+        margin-top: 3%;
+    }
+    
+    .button>a {
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        background-color: #eb5922;
+        width: 8.5%;
+        font-size: 1.1vw;
+    }
+    
+    .button>a:hover {
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        text-align: center;
+        color: #eb5922;
+        background-color: #fff;
+        width: 8.5%;
+        font-size: 1.2vw;
+    }
+    /* ! footer */
+    
+    .item5 {
+        padding-top: 1.5%;
+        padding-bottom: 2%;
+        text-align: center;
+        background-color: #070707;
+        color: #fff;
+        font-size: 1.1vw;
+    }
+    /* ! queries */
+    
+    @media screen and (max-width: 1370px) {
+        .item2 {
+            position: relative;
+            background: url(./images/mars_header.png);
+            width: 100%;
+            height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    
+    @media screen and (max-width: 900px) {
+        .item2 {
+            position: relative;
+            background: url(./images/mars_header.png);
+            width: 100%;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .item2 {
+            position: relative;
+            background: url(./images/mars_header.png);
+            width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        .item2 {
+            position: relative;
+            background: url(./images/mars_header.png);
+            width: 100%;
+            height: 75px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
